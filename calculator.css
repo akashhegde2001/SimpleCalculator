@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: linear-gradient( to bottom right,#ef32d9,#88fffd);
+    
+    justify-content: center;
+    font-family: Arial,sans-serif;
+    align-items: center;
+    height: 95vh;
+    margin-left: 550px;
+   margin-right: 550px;
+    margin-top: 80px;
+    
+}
+.calc{
+    width:400px;
+    height: auto;              /*new*/
+    background: #fff;
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+td{
+    font-size: 2em;
+    padding:0.7em;
+    text-align: center;
+    cursor: default;
+    transition: 0.3s;
+
+}
+td:hover{
+    background-color:rgb(199,199,199);
+}
+input{
+    padding:16px 10px;
+    width:95%;
+    border:0;
+    font-size: 2em;
+    background-color: #333;
+    color:#eee;
+    text-align: right;
+    border-radius: 0%;
+    
+}
+.sign{
+    background-color: rgb(84, 83, 82);
+    color: #fff;
+
+}
+.sign:hover{
+    background-color: #222;
+}
+.equ{
+    background-color: rgb(255,160,51);
+}
+h1{
+    text-align: center;
+    font-family:Zapf Chancery, cursive;
+}
